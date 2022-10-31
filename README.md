@@ -10,12 +10,11 @@
 <script src="https://utteranc.es/client.js"
         repo="hitptep/Burst-Gold-Coins-Third"
         issue-term="pathname"
-        theme="photon-light"
+        theme="photon-dark"
         crossorigin="anonymous"
         async>
 </script>
 </div>
-
 
 
 
