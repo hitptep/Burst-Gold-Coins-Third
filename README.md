@@ -6,15 +6,8 @@
 
 #### 1.软件项目与管理
 
-<div class="wildfire_thread">
-<script src="https://utteranc.es/client.js"
-        repo="hitptep/Burst-Gold-Coins-Third"
-        issue-term="pathname"
-        theme="photon-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-</div>
+
+
 
 
 
