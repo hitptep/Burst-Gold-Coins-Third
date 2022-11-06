@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestIoc/TestIoc.iml" filepath="$PROJECT_DIR$/TestIoc/TestIoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestIoc02/TestIoc02.iml" filepath="$PROJECT_DIR$/TestIoc02/TestIoc02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/反射和ioc.iml" filepath="$PROJECT_DIR$/.idea/反射和ioc.iml" />
+    </modules>
+  </component>
+</project>
