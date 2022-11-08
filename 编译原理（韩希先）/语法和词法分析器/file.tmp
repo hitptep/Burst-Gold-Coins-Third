@@ -1,0 +1,10 @@
+//zhe shi zhu shi
+int main()
+{
+    int a=3;
+    int b=4;
+    float c;
+    c=(a+b)/b;
+    printf("%d",c);
+    return 0;
+}
