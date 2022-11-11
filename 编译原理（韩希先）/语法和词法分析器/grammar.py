@@ -43,7 +43,6 @@ def getFirstForVar(var, first_dic, varset, terminalset, done):
     # 已经推导过直接结束
 
     if done[var] == 1:
-        # print("我已经推导过了吼")
         return
 
     # 对非终结符求first集合,先看右边第一个元素为终结符
@@ -247,10 +246,7 @@ def generatingGraph(begin_production_set, varset, terminalset, production_list):
     beginPoint = GraphPoint(begin_production_set, id)
     id = id + 1
 
-    # print("从这个状态开始！")
-    # print(beginPoint.id)
-    # for onepro in beginPoint.status:
-    #     print(onepro.number, " ", onepro.left, "->", onepro.right, "  ")
+
 
     pointset = [beginPoint]
     set = varset | terminalset
@@ -258,10 +254,6 @@ def generatingGraph(begin_production_set, varset, terminalset, production_list):
     while len(stack) != 0:
         currentPoint = stack.pop()
         ######
-        # print("该点被弹出,进行转移！")
-        # print(currentPoint.id)
-        # for onepro in currentPoint.status:
-        #     print(onepro.number, " ", onepro.left, "->", onepro.right, "  ")
 
         #####
         for var in set:
@@ -427,7 +419,7 @@ def initActionAndGoto(pointset, varset, terminalset, begin, follow_dic):
     return Action, Goto
 
 
-# SLR分析开始
+# SLR
 def SLR(Action, Goto, source, production_list):
     source.append([0, "#", "结束符"])
     statusstack = [0]
