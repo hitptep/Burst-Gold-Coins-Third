@@ -417,8 +417,6 @@ def initActionAndGoto(pointset, varset, terminalset, begin, follow_dic):
                         Action[point.id][getCol(terminal)].which = production.number
 
     return Action, Goto
-
-
 # SLR
 def SLR(Action, Goto, source, production_list):
     source.append([0, "#", "结束符"])
